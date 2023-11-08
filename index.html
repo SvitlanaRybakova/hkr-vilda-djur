@@ -7,6 +7,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vilda Djur i Sverige</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
 </head>
 
 <!-- Body-sektioner innehåller allt synligt innehåll som visas på webbsidan när den visas i en webbläsare -->
@@ -18,26 +22,26 @@
 
     <!-- Header-elementet innehåller sidans rubrik -->
     <h1>Vilda Djur i Sverige</h1>
+    <!-- Webbsidans navigation -->
+    <nav class="container">
+      <ul class="navigation">
+        <li><a href="#djur-sverige" class="active">Fakta om Djur i Sverige</a></li>
+        <li><a href="#människor-djur-sverige">Förhållandet mellan Människor och Djur i Sverige</a></li>
+        <li><a href="#vilda-djur-sverige">Vilda Djur i Sverige</a></li>
+      </ul>
+    </nav>
   </header>
-
-  <!-- Webbsidans navigation -->
-  <nav>
-    <ul>
-      <li><a href="#djur-sverige">Fakta om Djur i Sverige</a></li>
-      <li><a href="#människor-djur-sverige">Förhållandet mellan Människor och Djur i Sverige</a></li>
-      <li><a href="#vilda-djur-sverige">Vilda Djur i Sverige</a></li>
-    </ul>
-  </nav>
+ 
 
   <!-- Webbsidans huvudsakliga innehåll markerat med elementet main. -->
-  <main>
+  <main >
     <!-- Första avsnittet om fakta om djur i Sverige -->
-    <section id="djur-sverige">
+    <!-- Sektion rubrik -->
 
-      <!-- Sektion rubrik -->
-      <h2>Fakta om Djur i Sverige</h2>
-
+    <h2>Fakta om Djur i Sverige</h2>
+    <section id="djur-sverige" class="container">
       <!-- Användning av artiklar för att gruppera information om olika djurarter. -->
+
       <article>
         <h3>Älg (Alces alces):</h3>
         <ul>
@@ -92,11 +96,13 @@
           <li>De kan dyka på stora djup och hålla andan i upp till 30 minuter.</li>
         </ul>
       </article>
+
     </section>
     <!-- ./djur-sverige -->
 
     <!-- Andra avsnittet om förhållandet mellan människor och Sveriges vilda djur -->
-    <section id="människor-djur-sverige">
+    <div class="section__divider"></div>
+    <section id="människor-djur-sverige" class="container">
 
       <h2>Förhållandet mellan Människor och Djur i Sverige</h2>
 
@@ -106,47 +112,43 @@
           mellan människor och dessa djur också en betydande inverkan på deras överlevnad och livsmiljöer. Sverige har
           genom åren vidtagit åtgärder för att balansera skyddet av vilda djur och deras naturliga livsmiljöer med de
           behov och intressen som människor har.</p>
-      </div>
-      <div>
+     
         <p>En av de utmaningar som människor och vilda djur möter är konkurrensen om resurser. Till exempel kan vilda
           djur som älg och rådjur orsaka skador på jordbruksgrödor, vilket kan påverka böndernas inkomster. För att
           hantera dessa problem har Sverige implementerat olika åtgärder, som till exempel viltskadeersättningar till
           drabbade bönder och förvaltning av viltstammar för att kontrollera populationen och minimera skador.</p>
-      </div>
-      <div>
+      
         <p>Det finns också konflikter när det gäller rovdjur som varg och björn. Vargar kan ibland attackera tamdjur som
           får och jakthundar, vilket skapar spänningar mellan djurägare och rovdjursvänner. Åtgärder som att stärka
           skyddet för tamdjur och utveckla förebyggande åtgärder, som elektriska stängsel, har vidtagits för att
           minimera konflikter och skydda både tamdjur och rovdjur.</p>
-      </div>
-      <div>
+      
         <p>Samtidigt är det viktigt att erkänna värdet av att bevara vilda djur och deras naturliga livsmiljöer. Många
           svenska vilda djur är hotade eller sällsynta, och deras överlevnad är beroende av skyddade områden och
           bevarandeprogram. Sverige har etablerat nationalparker och naturreservat där vilda djur kan leva fritt och
           ostört, samtidigt som människor får möjlighet att uppleva och njuta av naturen.</p>
-      </div>
-      <div>
+      
         <p>För att främja medvetenhet och förståelse för vilda djur och deras betydelse för ekosystemet har Sverige
           också satsat på utbildningsprogram och naturturism. Det finns möjligheter för turister och lokalbefolkning att
           delta i guidade turer, safaris och studera vilda djur på ett sätt som är respektfullt och inte stör deras
           naturliga beteende.</p>
-      </div>
-      <div>
+     
         <p>Det är viktigt att notera att förhållandet mellan människor och vilda djur är komplext och kan vara olika
           beroende på vilken art det gäller och var i landet man befinner sig. Målet är att hitta en balans där både
           människor och vilda djur kan leva sida vid sida på ett hållbart sätt.</p>
-      </div>
-      <div>
+     
         <p>Genom att vidta åtgärder för att minska konflikter, främja bevarandeinsatser och öka medvetenheten om vilda
           djur och deras behov, kan Sverige fortsätta att vara en plats där människor och vilda djur kan existera och
           frodas tillsammans. Det är genom att respektera och bevara den biologiska mångfalden som vi kan säkerställa en
           hälsosam och hållbar framtid för både människor och vilda djur i Sverige.</p>
       </div>
+
     </section>
+    <div class="section__divider"></div>
     <!-- ./människor-djur-sverige -->
 
     <!-- Tredje avsnittet om vilda djur i Sverige -->
-    <section id="vilda-djur-sverige">
+    <section id="vilda-djur-sverige" class="container">
       <h2>Vilda Djur i Sverige</h2>
 
       <div>
@@ -157,6 +159,7 @@
       </div>
 
       <!-- Användning av artiklar för att gruppera information om olika vilda djurarter. -->
+      <div class="section__container">
       <article>
         <h3>Älg (Alces alces):</h3>
         <img src='./images/alg.jpg' alt="Älg ligger i gräset" width="400" height="300">
@@ -216,6 +219,7 @@
           kan dyka djupt för att hitta föda. Deras föda består främst av fisk och bläckfisk. Sälen har anpassat sig till
           det kalla klimatet i Sverige genom att ha ett tjockt lager av isolerande fett och päls.</p>
       </article>
+      </div>
     </section>
     <!-- ./vilda-djur-sverige -->
   </main>
